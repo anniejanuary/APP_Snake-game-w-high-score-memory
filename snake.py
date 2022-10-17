@@ -56,6 +56,3 @@ class Snake:
             self.snake_body[0].goto(+0, -self.STEP_LENGTH)
         elif screen.onkey(self.go_east, "Right") or screen.onkey(self.go_east, "d"):
             self.snake_body[0].goto(+self.STEP_LENGTH, +0)
-
-
-
